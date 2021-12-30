@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div>
             <div className="bg-warning" style={{height:"70px"}}>
-            <h2 className="fw-bold text-center text-light" >WELCOME TO LITTLE LOVE</h2>
+            <h2 className="fw-bold text-center text-light" >WELCOME TO BABY-SHOP</h2>
             </div>
             <Banner></Banner>
             <ProductsHome></ProductsHome>

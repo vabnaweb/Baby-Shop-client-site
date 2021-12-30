@@ -12,7 +12,7 @@ const Header = () => {
         <div>
             {/*============================ Navigation bar =============================*/}
 
-            <Navbar bg="warning" expand={false} fixed="top">
+            <Navbar bg="danger" expand={false} fixed="top">
                 <Container fluid>
                     <Nav.Link as={Link} to="/home" style={{ color: "white", textDecoration: "none", fontWeight: "bold" }}>Baby-Shop</Nav.Link>
                     <Navbar.Toggle aria-controls="offcanvasNavbar" />

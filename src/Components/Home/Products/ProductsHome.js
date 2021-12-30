@@ -6,6 +6,7 @@ import HomeProductsData from './HomeProductsData';
 import { useDispatch, useSelector } from 'react-redux';
 import { SetProduct } from '../../../Redux/Actions/ProductActions';
 import axios from 'axios';
+import './Products.css'
 const ProductsHome = () => {
     const dispatch=useDispatch()
     const products=useSelector((state)=>state.allProducts.products.slice(0,6))
@@ -31,7 +32,7 @@ const ProductsHome = () => {
         <div>
 
             <Container>
-                <h1 className="my-5 fw-bold text-center">Our Products</h1>
+                <h1 className="my-5 fw-bold text-center text-colr">Our Products</h1>
                 <Row xs={1} md={2} lg={3} className="g-4">
                     {
                         products.map(product => <HomeProductsData key={product._id} product={product}></HomeProductsData>)

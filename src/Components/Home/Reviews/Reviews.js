@@ -3,7 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import useAuth from '../../../Hooks/useAuth';
 import ReviewsAllData from './ReviewsAllData';
 import ReviewsData from './ReviewsData';
-
+import './Reviews.css'
 const Reviews = () => {
     const [reviews, setReviews] = useState([])
     const [allReviews, setAllReviews] = useState([])
@@ -25,7 +25,7 @@ const Reviews = () => {
     }, [])
     return (
         <div>
-            <h1 className="fw-bold text-center my-5" >Your Feedback</h1>
+            <h1 className="fw-bold text-center my-5 header-clr" >Your Feedback</h1>
             <Container className="w-50">
                 <Row >
 
@@ -38,7 +38,7 @@ const Reviews = () => {
 
                 </Row>
             </Container>
-            <h1 className="fw-bold text-center my-5" >Clients Feedback</h1>
+            <h1 className="fw-bold text-center my-5 header-clr" >Clients Feedback</h1>
             <Container>
                 <Row xs={1} md={2} lg={3}>
                     {

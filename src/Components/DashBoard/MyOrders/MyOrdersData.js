@@ -31,7 +31,7 @@ const MyOrdersData = (props) => {
             <Card.Body>
                 <Card.Title>Model: {Model}</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Brand: {Brand}</Card.Subtitle>
-                <Card.Subtitle className="mb-2 text-muted">Price: $ {Price}</Card.Subtitle>
+                <Card.Subtitle className="mb-2 text-muted">Price:  {Price}</Card.Subtitle>
                 <Card.Subtitle className="mb-2 text-muted">Address: {address}</Card.Subtitle>
                 <Card.Subtitle className="mb-2 text-muted">Status: {status}</Card.Subtitle>
 

@@ -11,7 +11,7 @@ const ProductsData = (props) => {
                     <Card.Img className="img-size" variant="top" src={img} />
                     <Card.Body>
                         <Card.Title>Age: {age}</Card.Title>
-                        <Card.Title>Price: $ {price}</Card.Title>
+                        <Card.Title>Price:  {price}</Card.Title>
                         
                         <Link to={`/order/${_id}`}>
                             <Button>Order Now</Button>
